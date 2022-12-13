@@ -10,7 +10,7 @@ app.use(express.static(__dirname+'/'));
 
 //enrutamiento
 app.get('/', (req, res) => {
-    res.sendFile("/home/ubuntu/AS221S2/Institucion.html")
+    res.sendFile("Institucion.html")
 });
 
 
